@@ -1,0 +1,24 @@
+.actions {
+  display: flex;
+  margin-bottom: 1rem;
+  background: rgba(197, 215, 141, 0.5);
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.article {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.articleMeta {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    font-style: italic;
+  }
+}

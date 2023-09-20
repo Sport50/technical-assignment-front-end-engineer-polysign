@@ -1,0 +1,70 @@
+.articleCardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+
+  > a > div {
+    cursor: pointer;
+    height: 100%;
+    padding: 1rem;
+    background: rgba(181, 233, 190, 0.3);
+    border-radius: 6px;
+    transition: all 0.3s;
+    
+    &:hover {
+      background: rgba(181, 233, 190, 0.7);
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+
+    ul {
+      margin: 1rem 0;
+    }
+
+    p {
+      font-size: 0.8rem;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.newArticle {
+  background: rgba(181, 193, 233, 0.1) !important;
+  
+  &:hover {
+    background: rgba(181, 193, 233, 0.3) !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .articleCardsWrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .articleCardsWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .articleCardsWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

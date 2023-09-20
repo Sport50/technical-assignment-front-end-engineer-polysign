@@ -1,0 +1,35 @@
+{
+  "name": "clubee-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.9",
+    "@mui/material": "^5.14.10",
+    "@types/luxon": "^3.3.2",
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.2",
+    "luxon": "^3.4.3",
+    "next": "13.5.2",
+    "radash": "^11.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.67.0"
+  }
+}
